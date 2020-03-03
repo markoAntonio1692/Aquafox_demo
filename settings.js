@@ -41,8 +41,11 @@ var settings = module.exports = {
     //httpAdminAuth: {user:"user",pass:"5f4dcc3b5aa765d61d8327deb882cf99"},
 
     // Serve up the welcome page
-    httpStatic: path.join(__dirname,"public"),
+    
+    //servir pagina estatica en la raiz
+    //httpStatic: path.join(__dirname,"public"),
 
+    
     functionGlobalContext: { },
 
     storageModule: require("./mongostorage"),
