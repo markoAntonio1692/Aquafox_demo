@@ -18,7 +18,7 @@ var path = require("path");
 var when = require("when");
 
 var settings = module.exports = {
-    uiPort: process.env.PORT || 1880/ui,
+    uiPort: process.env.PORT || 1880,
     mqttReconnectTime: 15000,
     serialReconnectTime: 15000,
     debugMaxLength: 10000000,
@@ -34,6 +34,7 @@ var settings = module.exports = {
     autoInstallModules: true,
 
     // Move the admin UI
+    httpNodeRoot:'/ui',
     
     httpAdminRoot: '/admin',
 
