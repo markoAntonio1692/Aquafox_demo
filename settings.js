@@ -36,6 +36,9 @@ var settings = module.exports = {
     // Move the admin UI
     httpNodeRoot: '/ui',
     
+    ui: { path: "panel-control" },
+
+    
     httpAdminRoot: '/admin',
 
     // You can protect the user interface with a userid and password by using the following property
