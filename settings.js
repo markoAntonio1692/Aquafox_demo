@@ -18,7 +18,7 @@ var path = require("path");
 var when = require("when");
 
 var settings = module.exports = {
-    uiPort: process.env.PORT || 1880,
+    uiPort: process.env.PORT || 1880/ui,
     mqttReconnectTime: 15000,
     serialReconnectTime: 15000,
     debugMaxLength: 10000000,
@@ -35,7 +35,7 @@ var settings = module.exports = {
 
     // Move the admin UI
     
-    httpAdminRoot: '/ui',
+    //httpAdminRoot: '/ui',
 
     // You can protect the user interface with a userid and password by using the following property
     // the password must be an md5 hash  eg.. 5f4dcc3b5aa765d61d8327deb882cf99 ('password')
