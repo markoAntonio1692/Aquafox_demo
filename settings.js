@@ -34,7 +34,7 @@ var settings = module.exports = {
     autoInstallModules: true,
 
     // Move the admin UI
-    httpNodeRoot: '/ui',
+   // httpNodeRoot: '/ui',
     
     ui: { path: "panel-control" },
 
