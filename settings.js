@@ -42,7 +42,7 @@ var settings = module.exports = {
        res.writeHead(200, {'content-type': 'text/plain'});
     res.end('Hola Mundo');
        
-       next();
+      // next();
    }},
     
     httpAdminRoot: '/admin',
