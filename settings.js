@@ -36,7 +36,7 @@ var settings = module.exports = {
     // Move the admin UI
    // httpNodeRoot: '/ui',
     
-    ui: { path: "panel-control" },
+    ui: { path: "/" },
 
     
     httpAdminRoot: '/admin',
