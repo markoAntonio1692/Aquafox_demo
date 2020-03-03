@@ -40,7 +40,7 @@ var settings = module.exports = {
     
     httpAdminRoot: '/admin',
 
-   httpNodeAuth: {user:"user",pass:"12345678"},
+   httpNodeAuth: {user:"user",pass:"$2a$08$RpVDjfUCFB1VUODdBIMFG.4J//U7cik7D/fCD9RVp1z91M5ZQZBQu"},
     
     
     // You can protect the user interface with a userid and password by using the following property
