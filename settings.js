@@ -34,8 +34,7 @@ var settings = module.exports = {
     autoInstallModules: true,
 
     // Move the admin UI
-    //httpNodeRoot: 
-    ui : { path: “mydashboard” },
+    httpNodeRoot: '/ui',
     
     httpAdminRoot: '/admin',
 
