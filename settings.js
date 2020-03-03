@@ -36,7 +36,11 @@ var settings = module.exports = {
     // Move the admin UI
    // httpNodeRoot: '/ui',
     
-   ui: { path: "/" },
+   ui: { path: "/" ,middleware:function(req,res,next){
+   
+   console.log('LOGGED');
+       next();
+   }},
     
     httpAdminRoot: '/admin',
 
