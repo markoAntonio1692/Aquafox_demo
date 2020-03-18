@@ -36,14 +36,14 @@ var settings = module.exports = {
     // Move the admin UI
    // httpNodeRoot: '/ui',
     
-   ui: { path: "/" ,middleware:function(req,res,next){
-   
+   //ui: { path: "/" ,middleware:function(req,res,next){
+   ui: { path: "/" },
   // console.log('LOGGED');
     //   res.writeHead(200, {'content-type': 'text/plain'});
     //res.end('Hola Mundo');
        
       // next();
-   }},
+   //}},
     
     httpAdminRoot: '/admin',
 
