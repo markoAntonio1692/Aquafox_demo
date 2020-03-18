@@ -38,9 +38,9 @@ var settings = module.exports = {
     
    ui: { path: "/" ,middleware:function(req,res,next){
    
-   console.log('LOGGED');
-       res.writeHead(200, {'content-type': 'text/plain'});
-    res.end('Hola Mundo');
+  // console.log('LOGGED');
+    //   res.writeHead(200, {'content-type': 'text/plain'});
+    //res.end('Hola Mundo');
        
       // next();
    }},
